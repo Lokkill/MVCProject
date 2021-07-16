@@ -23,6 +23,7 @@ public class BookController {
                 System.out.println(book.toString());
                 books.add(book);
             }
+            disconnect();
             return books;
         }
     }
